@@ -12,7 +12,3 @@ else:
     grade = "F"
 
 print("귀하의 등급은", grade, "입니다.")
-
-x = int(input("숫자를 입력해주세요."))
-
-if x/2 == %0

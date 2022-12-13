@@ -54,10 +54,17 @@ print([len(x) for x in tp])
 
 print("====필터링하는 경우===")
 lst = [10, 25, 30]
-interL = filter(None, lst)
-for item in interL:
+iterL = filter(None, lst)
+for item in iterL:
     print(item)
 
+print("====필터링하는 경우===")
+def getBiggerThan25(x):
+    return x > 25
 
+lst=[10,25,30]
+iterL = filter(getBiggerThan25, lst)
+for item in iterL:
+    print(item)
 
 
