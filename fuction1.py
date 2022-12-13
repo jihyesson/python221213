@@ -4,4 +4,4 @@ def times(a,b):
     return a*b
 
 #호출
-print(times(3,4))
+print(times(23,4))
